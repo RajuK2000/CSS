@@ -7,10 +7,31 @@
         <title>simple selectors</title>
         <style>
             table,th,td,tr{
-                border:1px solid black;
+                border:2px solid white;
+                text-align: center;
                  }
-                 .td1 {
-                    background-color:  red;
+                 .txt{
+                    font-style:inherit;
+                    font-size: x-large;
+                    color: black;
+                } 
+                #td13{font-style: inherit; font-size: x-large; color: white;}              
+                 .td1{background-color:  #ff0000;}
+                 .td2{ background-color: #008000;}
+                 .td3{background-color: #f0f8ff;}
+                 .td4{background-color: #00ffff;}
+                 .td5{background-color: #0000ff;}
+                 .td6{background-color: #9acd32;}
+                 .td7{background-color: #ffc0cb;}
+                 .td8{background-color: #ee82ee;}
+                 .td9{background-color: #808080;}
+                 .td10{background-color: #6495ed;}
+                 .td11{background-color: #ff7f50;}
+                 .td12{background-color: #ffebcd;}
+                 #td13{background-color: #000000;}
+                 .td14{background-color: #ffd700;}
+                 .td15{background-color: #800000;}
+                 .td16{background-color: #00ffff;}
 
 
         </style>
@@ -18,32 +39,36 @@
 
     </head>
     <body>
+        <fieldset style="color:red;" >
+            <legend style="color: darkmagenta;"><h2>Colors(using simple selectors)</h2></legend>
+        
        <table>
         <tr>
-            <td class="td1" height="200" width="200"></td>
-            <td>td2</td>
-            <td></td>
-            <td></td>
+            <td class="td1 txt" height="200" width="400">RED<pre>#FF0000</pre></td>
+            <td class="td2 txt" height="200" width="400">GREEN <pre>#008000</pre></td>
+            <td class="td3 txt" height="200" width="400">ALICEBLUE<pre>#f0f8ff</pre></td>
+            <td class="td4 txt" height="200" width="400">Aqua<pre>#00FFFF</pre></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class="td5 txt" height="200" width="400">Blue<pre>#0000ff</pre></td>
+            <td class="td6 txt" height="200" width="400">Yellowgreen<pre>#9acd32</pre></td>
+            <td class="td7 txt" height="200" width="400">Pink<pre>#ffc0cb</pre></td>
+            <td class="td8 txt" height="200" width="400">Violet<pre>#ee82ee</pre></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class="td9 txt" height="200" width="400">Grey<pre>#808080</pre></td>
+            <td class="td10 txt" height="200" width="400">Cornflowerblue<pre>#6495ed</pre></td>
+            <td class="td11 txt" height="200" width="400">Coral<pre>#ff7f50</pre></td>
+            <td class="td12 txt" height="200" width="400">Blanchedalmond<pre>#ffebcd</pre></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="td13">Black<pre>#000000</pre></td>
+            <td class="td14 txt" height="200" width="400">Gold<pre>#ffd700</pre></td>
+            <td class="td15 txt" height="200" width="400">Maroon<pre>#800000</pre></td>
+            <td class="td16 txt" height="200" width="400">Cyan<pre>#00ffff</pre></td>
         </tr>
 
        </table> 
+    </fieldset>
     </body>
 </html>
