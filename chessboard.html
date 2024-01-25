@@ -4,20 +4,27 @@
         <script src="https://kit.fontawesome.com/ba3b6fa24c.js" crossorigin="anonymous"></script>   
 <meta charset="UTF-8">
 <meta name="viewport" content="width=divice-width,initial-scale=1.0">
-<meta name="keywords" content="school">
+<meta name="keywords" content="chess">
 <title>Chesboard</title>
 <style>
     table{
-        border: 3px solid brown;
-    ;
+        border: 1px solid brown;
+        border-collapse: collapse;
+        text-align: center;
+       
     }
     tr,td{
-        border: 2px solid aqua;
+        border: 1px solid aqua;
+    }
+    .rr{
+        text-align: center;
+         color: darkmagenta;
+          background-color: aliceblue;"
     }
     .one{
         height: 70px;
         width: 70px;
-        background-color:rgb(223, 194, 152);
+        background-color: cornflowerblue;
     }
     .one1{
         height: 70px;
@@ -26,53 +33,52 @@
     }
     .cls{
         background-color :bisque;
+        background-image: linear-gradient(90deg,orangered, pink,green,yellow);
     }
+    .one1:hover{
+    background-color: green;
+    zoom:95%;
+    }
+    .one:hover{
+        background-color: blueviolet;
+        zoom: 95%;
+    }
+    .one:active{
+        color:orangered;
+      }
+      .one1:active{
+        color: orangered;
+      }
+      h1:hover{
+        background-color: black;
+        color: aliceblue;
+      }
     </style>
     </head>
     <body>
         
         <div class="cls">
-            <h1 style="text-align: center; color: darkmagenta; background-color: aliceblue;"><u>ChessBoard</u></h1>
+            <h1 class="rr">ChessBoard</h1>
             <table style="margin-left: 380px;">
                 <tr >
-                    <td class="one"><i class='fas fa-chess-rook' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-knight' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one"><i class='fas fa-chess-bishop' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-queen' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one"><i class='fas fa-chess-king' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-bishop' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one"><i class='fas fa-chess-knight' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-rook' style="font-size:50px;margin-left: 15px;"></i></td>
+                    <td class="one"><i class='fas fa-chess-rook' style="font-size:50px;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-knight' style="font-size:50px"></i></td>
+                    <td class="one"><i class='fas fa-chess-bishop' style="font-size:50px;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-queen' style="font-size:50px;"></i></td>
+                    <td class="one"><i class='fas fa-chess-king' style="font-size:50px;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-bishop' style="font-size:50px;"></i></td>
+                    <td class="one"><i class='fas fa-chess-knight' style="font-size:50px;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-rook' style="font-size:50px;"></i></td>
                 </tr>
                 <tr >
-                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 15px;"></i></td>
-                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 20px;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 20px;"></i></td>
-                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 20px;"></i></td>
-                </tr>
-                <tr >
-                    <td class="one"></td>
-                    <td class="one1"></td>
-                    <td class="one"></td>
-                    <td class="one1"></td>
-                    <td class="one"></td>
-                    <td class="one1"></td>
-                    <td class="one"></td>
-                    <td class="one1"></td>
-                </tr>
-                <tr >
-                    <td class="one1"></td>
-                    <td class="one"></td>
-                    <td class="one1"></td>
-                    <td class="one"></td>
-                    <td class="one1"></td>
-                    <td class="one"></td>
-                    <td class="one1"></td>
-                    <td class="one"></td>
+                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;"></i></td>
+                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;"></i></td>
+                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;"></i></td>
+                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;"></i></td>
+                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;"></i></td>
                 </tr>
                 <tr >
                     <td class="one"></td>
@@ -95,24 +101,44 @@
                     <td class="one"></td>
                 </tr>
                 <tr >
-                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 20px; color: white;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 20px; color: white;"></i></td>
-                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 20px; color: white;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 20px; color: white;"></i></td>
-                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 20px; color: white;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 20px; color: white;"></i></td>
-                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 20px; color: white;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px;margin-left: 20px; color: white;"></i></td>
+                    <td class="one"></td>
+                    <td class="one1"></td>
+                    <td class="one"></td>
+                    <td class="one1"></td>
+                    <td class="one"></td>
+                    <td class="one1"></td>
+                    <td class="one"></td>
+                    <td class="one1"></td>
                 </tr>
                 <tr >
-                    <td class="one1"><i class='fas fa-chess-rook' style="font-size:50px;margin-left: 15px; color: white;"></i></td>
-                    <td class="one"><i class='fas fa-chess-knight' style="font-size:50px;margin-left: 15px; color: white;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-bishop' style="font-size:50px;margin-left: 15px; color: white;"></i></td>
-                    <td class="one"><i class='fas fa-chess-king' style="font-size:50px;margin-left: 15px; color: white;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-queen' style="font-size:50px;margin-left: 15px; color: white;"></i></td>
-                    <td class="one"><i class='fas fa-chess-bishop' style="font-size:50px;margin-left: 15px; color: white;"></i></td>
-                    <td class="one1"><i class='fas fa-chess-knight' style="font-size:50px;margin-left: 15px; color: white;"></i></td>
-                    <td class="one"><i class='fas fa-chess-rook' style="font-size:50px;margin-left: 15px; color: white;"></i></td>
+                    <td class="one1"></td>
+                    <td class="one"></td>
+                    <td class="one1"></td>
+                    <td class="one"></td>
+                    <td class="one1"></td>
+                    <td class="one"></td>
+                    <td class="one1"></td>
+                    <td class="one"></td>
+                </tr>
+                <tr >
+                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px; color: white;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px; color: white;"></i></td>
+                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px; color: white;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px; color: white;"></i></td>
+                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px; color: white;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px; color: white;"></i></td>
+                    <td class="one"><i class='fas fa-chess-pawn' style="font-size:50px; color: white;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-pawn' style="font-size:50px; color: white;"></i></td>
+                </tr>
+                <tr >
+                    <td class="one1"><i class='fas fa-chess-rook' style="font-size:50px; color: white;"></i></td>
+                    <td class="one"><i class='fas fa-chess-knight' style="font-size:50px; color: white;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-bishop' style="font-size:50px; color: white;"></i></td>
+                    <td class="one"><i class='fas fa-chess-king' style="font-size:50px; color: white;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-queen' style="font-size:50px; color: white;"></i></td>
+                    <td class="one"><i class='fas fa-chess-bishop' style="font-size:50px; color: white;"></i></td>
+                    <td class="one1"><i class='fas fa-chess-knight' style="font-size:50px; color: white;"></i></td>
+                    <td class="one"><i class='fas fa-chess-rook' style="font-size:50px; color: white;"></i></td>
                 </tr>
             </table>
         </div>
